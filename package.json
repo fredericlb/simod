@@ -18,5 +18,9 @@
   "homepage": "https://github.com/ioweb-fr/simod",
   "dependencies": {
     "immutable": "^3.7.2"
+  },
+  "devDependencies": {
+    "babel-eslint": "^3.0.1",
+    "eslint": "^0.20.0"
   }
 }
