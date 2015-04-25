@@ -1,6 +1,6 @@
 {
   "name": "simod",
-  "version": "0.0.1",
+  "version": "0.0.4",
   "description": "A very simple model layer for frontend ES6 projects (originally made for React + Airflux)",
   "main": "index.js",
   "scripts": {
@@ -10,8 +10,8 @@
     "type": "git",
     "url": "https://github.com/ioweb-fr/simod.git"
   },
-  "author": "Ioweb",
-  "license": "ISC",
+  "author": "Ioweb <contact@ioweb.fr>",
+  "license": "BSD-3-Claude",
   "bugs": {
     "url": "https://github.com/ioweb-fr/simod/issues"
   },

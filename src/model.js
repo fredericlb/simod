@@ -1,5 +1,5 @@
 import {Map, List} from "immutable";
-import Collection from "../base/collection.js";
+import Collection from "./collection.js";
 
 class Model {
 
