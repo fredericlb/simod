@@ -12,6 +12,10 @@ Simod is a really simple way to define models in ES6. It provides :
 It also contains a Collection class which defines some simple operations
 on models.
 
+# Installation 
+
+```npm install --save simod```
+
 # Usage
 
 Your models should extend the Model class. When calling super, you should provide:
