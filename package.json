@@ -1,6 +1,6 @@
 {
   "name": "simod",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "A very simple model layer for frontend ES6 projects (originally made for React + Airflux)",
   "main": "index.js",
   "scripts": {
