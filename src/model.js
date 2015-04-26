@@ -19,7 +19,7 @@ class Model {
             if (klass === undefined || value instanceof klass) {
                 return value;
             } else {
-                return klass.reify(value);
+                return Model.reify(klass, value);
             }
         };
 
@@ -79,8 +79,7 @@ class Model {
         return new klass(this.attrs.merge(attrs));
     }
 
-    static reify(attrs) {
-        var klass = this.__proto__.constructor;
+    static reify(klass, attrs) {
         return new klass(attrs);
     }
 }

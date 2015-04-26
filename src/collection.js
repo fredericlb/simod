@@ -18,11 +18,6 @@ class Collection {
         return new Collection(fct(this.elements));
     }
 
-    // @Override
-    toSendable() {
-        return this.elements.map(e => e.toSendable());
-    }
-
     contains(id) {
         return this.elements.filter(obj => obj.id === id).count() > 0;
     }
