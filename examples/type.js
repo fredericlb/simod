@@ -14,8 +14,8 @@ class Point extends Model {
     get y() { return this.attrs.get("y"); }
 
     // For (un)serialization
-    static reify(attrs) {
-        return new Point(attrs.x, attrs.y, attrs.space);
+    static reify(klass, attrs) {
+        return new klass(attrs.x, attrs.y, attrs.space);
     }
 }
 

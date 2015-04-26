@@ -19,7 +19,7 @@ class Model {
             if (klass === undefined || value instanceof klass) {
                 return value;
             } else {
-                return Model.reify(klass, value);
+                return klass.reify(klass, value);
             }
         };
 
